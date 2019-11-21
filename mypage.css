@@ -1,0 +1,280 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+  letter-spacing: 2px;
+  font-family: 'TsukuARdGothic-Regular',fantasy;
+}
+
+header {
+  background: black;
+  line-height: 44px;
+  height: 44px;
+  opacity: 1;
+}
+
+header a {
+  float: right;
+  margin: 0 10px;
+  padding: 0 10px;
+  text-decoration: none;
+  background: rgb(152, 23, 213);
+  color: #fdffff;
+  opacity: 0.7;
+}
+
+header a:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#draw-btn {
+  margin-right: 50px;
+}
+
+.fa-dove:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-cat:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-fish:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-otter:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-spider:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-dragon:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.fa-frog:before {
+  content: "\f4ba";
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(181, 3, 254);
+}
+.search-area {
+  background: rgb(214, 207, 212);
+  width: 15%;
+  height: 150px;
+  position: absolute;
+  right: 3%;
+  border-radius: 4px;
+}
+
+.list-area {
+  top: 200px;
+  background: rgb(214, 207, 212);
+  width: 70%;
+  height: 500px;
+  margin-left: 500px;
+  position: absolute;
+  right: 350px;
+  border-radius: 4px;
+  margin-right: 35px;
+  padding-right: 20px;
+}
+
+.search-area p, .list-area p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(225, 17, 230);
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  position: absolute;
+  top: 550px;
+  right: 6%;
+  opacity: 0.6;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.fa-pencil-alt:before {
+  content: "\f303";
+  color: red;
+  font-size: 45px;
+  position: absolute;
+  top: 580px;
+  right: 8%;
+}
+
+footer p {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: black;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+
+.withdraw-btn{
+  display: block;
+  background: radial-gradient(rgb(171, 38, 154), #f71ab3);
+  color: black;
+  opacity: 0.8;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 35;
+}
+.withdraw-btn:hover{
+  opacity: 1;
+  transition: all 0.5s;
+}
+#back-btn{
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(225, 17, 230);
+  color: black;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  opacity: 0.8;
+  font-size: 30px;
+}
+#back-btn:hover{
+  opacity: 1;
+  transition: all 1s;
+}
+
+.form-cover{
+  background: #e8d9d9;
+  opacity: 0.7;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 20px;
+  height: 400px;
+}
+#withdrawname{
+  margin-top: 0;
+}
+#text{
+  color: red;
+  padding-bottom: 20px;
+}
+
+#show{
+  display: none;
+  z-index: 5;
+  position: absolute;
+  right: 10px;
+}
+
+
+
+ul{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.not_action{
+  display: none;
+}
+.action{
+  display: block;
+  position: absolute;
+  color: rgb(236, 18, 77);
+  left: 400px;
+  font-size: 25px;
+  top: 100px;
+}
+
+ul li div{
+  display: inline;
+  background: white;
+}
+li{
+  margin-bottom: 8px;
+  width: 45%;
+}
+
+li input{
+  position: relative;
+  left: 15px;
+  opacity: 0;
+  width: 15px;
+}
+
+form input:hover{
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.search_word{
+  color: red;
+  z-index: 10;
+  position: fixed;
+  width: 570px;
+  left: 440px;
+  top: 300px;
+  font-size: 24;
+  line-height: 50px;
+}
+#search_btn{
+  position: absolute;
+  right: 70px;
+  top: 243px;
+}

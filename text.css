@@ -1,0 +1,104 @@
+body{
+  background: white;
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/texture171030IMGL0700_TP_V.jpg);
+  font-family: 'Kaiti SC',fantasy;
+}
+
+h1{
+  color: rgb(255, 158, 3);
+  text-align: center;
+  margin-top: 60px;
+}
+.contents{
+  background: rgba(224, 208, 191, 0.6);
+  width: 65%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.title-all-form{
+  text-align: center;
+  padding-top: 60px;
+}
+.text-all-form{
+  text-align: center;
+  padding-top: 60px;
+}
+#btn {
+    display: block;
+    width: 12%;
+    background: orange;
+    opacity: 0.5;
+    padding: 15px 15px 15px 15px;
+    font-size: 22px;
+    margin: 25px 10px 10px 530px;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    top: 600px;
+    left: 320px;
+}
+#btn:hover{
+  opacity: 1;
+  background: orange;
+  transition: all 0.5s;
+}
+#btn:active{
+  transform: translateY(4px);
+}
+textarea,#text{
+    background-color: #fff6f6;
+    border-style: none;
+}
+label{
+  color: rgb(255, 109, 109);
+  font-size: 30px;
+}
+#text{
+  height: 25px;
+  width: 500px;
+}
+#back-btn{
+  display: block;
+  background: orange;
+  opacity: 0.5;
+  padding: 15px 1px;
+  font-size: 22px;
+  margin: 25px 10px 10px 530px;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  top: 600px;
+  left: -150px;
+  width: 150px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+#back-btn:hover{
+  opacity: 1;
+  background: orange;
+  transition: all 0.5s;
+}
+#back-btn:active{
+  transform: translateY(4px);
+}
+.err{
+  color: red;
+}
+.day-all-form{
+  text-align: center;
+  padding-top: 60px;
+}
+.day-all-form input{
+  width: 50px;
+}
+#width50{
+  width: 50px;
+  background-color: #fff6f6;
+  border-style: none;
+  height: 33px;
+  position: relative;
+  right: 10px;
+  bottom: 3px;
+}
